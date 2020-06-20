@@ -1,6 +1,6 @@
-#Form created with animations made in CSS
+# Form created with animations made in CSS
 
-###Challenges overcome
+### Challenges overcome
 
 - Making the fields appear from left to right, smoothing the entry and making them enter at different times
 - When you click on Login, make the form leave the screen, going down.
