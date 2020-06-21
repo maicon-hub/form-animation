@@ -135,3 +135,25 @@ form .btn-login{
     transform: translateX(15%);
   }
 }
+
+.squares li {
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.15);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation: up 2s infinite alternate;
+}
+
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(0);
+  } 50% {
+    opacity: 1;
+  } to {
+    opacity: 0;
+    transform: translateY(-1000px) rotate(960deg);
+  }
+}
