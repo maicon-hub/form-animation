@@ -107,3 +107,16 @@ form .btn-login{
     transform: scale(1);
   }
 }
+
+.form-hide {
+  animation: down 1.6s forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes down {
+  from {
+    transform: translateY(0);
+  } to {
+    transform: translateY(100vh);
+  }
+}
